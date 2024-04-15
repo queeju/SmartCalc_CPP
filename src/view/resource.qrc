@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file>icons/app_icon.png</file>
+        <file>icons/favicon.ico</file>
+        <file>icons/calc_icn.icns</file>
+        <file>icons/piggy1.png</file>
+        <file>icons/piggy2.png</file>
+        <file>icons/credit1.png</file>
+        <file>icons/credit2.png</file>
+        <file>icons/graph1.png</file>
+        <file>icons/graph2.png</file>
+        <file>fonts/Quicksand-Bold.ttf</file>
+        <file>fonts/Quicksand-Regular.ttf</file>
+        <file>fonts/Quicksand-Medium.ttf</file>
+        <file>icons/info.gif</file>
+    </qresource>
+</RCC>
