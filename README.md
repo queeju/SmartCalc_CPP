@@ -3,17 +3,16 @@
 SmartCalc v2.0 is a comprehensive calculator program implemented in C++17, featuring a graphical user interface (GUI) built with the Qt library. This project was developed as part of a student assignment, adhering to strict specifications and best practices in software architecture.
 
 ## Features
-![Calculator mode](misc/images/calc.png)
+
 - **Expression Calculation**: The program supports the evaluation of arbitrary bracketed arithmetic expressions in infix notation, including the use of both integers and real numbers.
-- **Arithmetic Operations**: Supports a wide range of arithmetic operators and mathematical functions, including addition, subtraction, multiplication, division, exponentiation, modulus, and various trigonometric and logarithmic functions.
-- **Precision**: The program guarantees a verifiable accuracy of the fractional part to at least 13 decimal places.
-- **Input Limit**: Users can input expressions of up to 255 characters in length.
-![Graph mode](misc/images/graph.png)
+![Calculator mode](misc/images/calc.png)
+- **Arithmetic Operations**: Supports a wide range of arithmetic operators and mathematical functions, including addition, subtraction, multiplication, division, exponentiation, modulus, and various trigonometric and logarithmic functions. The accuracy of the fractional part to at least 13 decimal places. Users can input expressions of up to 255 characters in length.
 - **Graph Plotting**: Users can plot graphs of functions specified by infix notation expressions with a variable 'x', with support for customizing the domain and codomain.
-![Credit mode](misc/images/bank1.png)
+![Graph mode](misc/images/graph.png)
 - **Credit Calculator**: Includes a special mode for calculating credit payments, providing details such as monthly payments, overpayment on credit, and total payment.
-![Deposit mode](misc/images/bank2.png)
+![Credit mode](misc/images/bank1.png)
 - **Deposit Calculator**: Offers a deposit profitability calculator, allowing users to calculate accrued interest, tax amounts, and final deposit amounts based on various parameters.
+![Deposit mode](misc/images/bank2.png)
 - **Unit Testing**: Full coverage of expression calculation modules is ensured through unit tests using the GTest library.
 - **MVC Architecture**: Implemented following the Model-View-Controller (MVC) pattern, ensuring separation of concerns and maintainability.
 
@@ -30,10 +29,10 @@ Before you can build and run SmartCalc v2.0, ensure that you have the following 
 - **Additional Dependencies**: 
   - GTest: If you plan to run unit tests, you'll need the GTest library installed.
 
-## Usage
+## Installation
 
-To use SmartCalc v2.0, simply compile the program using the provided Makefile and run the executable. The intuitive GUI interface provides easy access to all functionalities, including expression evaluation, graph plotting, and specialized calculators for credit and deposit calculations.
-
-## Getting Started
-
-To get started with the project, clone the repository and follow the installation instructions provided in the README file. Contributions and feedback are welcome!
+```bash
+git clone git@github.com:queeju/SmartCalc_CPP.git
+cd SmartCalc_CPP
+make
+```
